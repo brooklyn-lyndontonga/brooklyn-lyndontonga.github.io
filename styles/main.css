@@ -1,0 +1,45 @@
+<style>
+   /* Global Styles */
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f94500
+  }
+
+  /* Header Styles */
+  header {
+    background-color: #ffd80f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header Title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Main Content Styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  main title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #187b25 ;
+  }
+
+  main p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ff72b6;
+  }
+  
+</style>
