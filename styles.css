@@ -17,6 +17,8 @@
   .header-title {
     font-size: 25px;
     font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
   }
 
   .main {
