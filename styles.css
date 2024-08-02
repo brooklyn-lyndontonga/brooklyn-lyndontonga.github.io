@@ -29,16 +29,14 @@
   .body {
    background-color: #ff72b6;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
-    font-style: normal; 
     color: #187B25;
     margin: 20px;
     padding: 30px;
   }
 
-  .body-2 {
+  .body2 {
    background-color: #187B25;
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
-    font-style: normal; 
+    font-family: monospace;
     color: #ff72b6;
     margin: 20px;
     padding: 30px;
