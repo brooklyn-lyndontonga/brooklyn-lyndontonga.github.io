@@ -1,87 +1,71 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
-<style>
-   /* Global Styles */
-   body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-
-  /* Header Styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-
-  header Title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  /* Main Content Styles */
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  main title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  main p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-</style>
 <html lang="en">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brooky's Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header> 
-      <Title>About my Blog:</Title>
-      <h1>This blog is to showcase my journey into web develoment.</h1>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">blog-posts</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <title>About me:</title>
-        <p>
-          Ko Hikurangi te maunga
-          Ko Waiapu te awa 
-          Ko Reporura te marae 
-          Ko Ngati Rangi te hapu 
-          Ko Ngati Porou te iwi 
-          Ko Layla LyndonTonga nee Aupouri toku mama 
-          
-          Ko Motatau te maunga 
-          Ko Hikurangi te awa 
-          Ko Tau Henare te marae 
-          Ko Te Orewai te hapu 
-          Ko Ngati Hine te iwi 
-          Ko Rangihaeata LyndonTonga toku papa 
-          
-          Ko Brooklyn LyndonTonga ahau
-
-          Kia ora my name is Brooklyn. 
-          I am a descendant of Uepohatu of Ngati Porou and Hineamaru of Ngati Hine.
-          I currently live in the beautiful Whatatutu, Gisborne with my 
-          beautiful wildling children and amazing partner Paora Peipi, a.k.a Mr.Peipz.
-          I lose track of how old i am, ive been 25 for 3 years, maybe 4 now. 
-          Im grateful for the opportunity to make myself known and for 
-          the opportunity to learn skills i can use 
-          to further my career into tech spaces.</p>
+        <section class="blog-posts">
+            <h1>Latest Blog Posts</h1>
+            <article>
+                <h2>Post 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <p><a href="#">Read more</a></p>
+            </article>
+            <article>
+                <h2>Post 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <p><a href="#">Read more</a></p>
+            </article>
+        </section>
+        <aside class="sidebar">
+            <h2>About Me</h2>
+             <p>
+              Ko Hikurangi te maunga
+              Ko Waiapu te awa 
+              Ko Reporura te marae 
+              Ko Ngati Rangi te hapu 
+              Ko Ngati Porou te iwi 
+              Ko Layla LyndonTonga nee Aupouri toku mama</p> 
+              
+              <p>
+              Ko Motatau te maunga 
+              Ko Hikurangi te awa 
+              Ko Tau Henare te marae 
+              Ko Te Orewai te hapu 
+              Ko Ngati Hine te iwi 
+              Ko Rangihaeata LyndonTonga toku papa</p> 
+              
+              <p>
+              Ko Brooklyn LyndonTonga ahau</p>
+    
+              <p>
+              Kia ora my name is Brooklyn. 
+              I am a descendant of Uepohatu of Ngati Porou and Hineamaru of Ngati Hine.
+              I currently live in the beautiful Whatatutu, Gisborne with my 
+              beautiful wildling children and amazing partner Paora Peipi, a.k.a Mr.Peipz.
+              I lose track of how old i am, ive been 25 for 3 years, maybe 4 now. 
+              Im grateful for the opportunity to make myself known and for 
+              the opportunity to learn skills i can use 
+              to further my career into tech spaces.</p>
+        </aside>
     </main>
-   
+    <footer>
+        <p>&copy; 2023 My Blog</p>
+    </footer>
 </body>
 </html>
