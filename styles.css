@@ -1,12 +1,38 @@
 
-   .body {
+ .header-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif sans-serif;
+    font-style: normal;
+  }
+
+  .header {
+    background-color: #ffd80f;
+    color: #F94500;
+    padding: 40px;
+    text-align: center;
+  }
+
+ .main-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+ }
+  
+ .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .body {
    background-color: #ff72b6;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
     font-style: normal; 
     color: #187B25;
     margin: 20px;
     padding: 30px;
-    
   }
 
   .body-2 {
@@ -18,37 +44,13 @@
     padding: 30px;
   }
 
-  .header {
-    background-color: #ffd80f;
-    color: #F94500;
-    padding: 40px;
-    text-align: center;
-  }
-
-  .header-title {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif sans-serif;
-    font-style: normal;
-  }
-
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-
-  .main-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
   .p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
   
+  .footer {
+    padding: 20px;
+    margin: 150px;
+  }
