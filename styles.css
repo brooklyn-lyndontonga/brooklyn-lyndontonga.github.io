@@ -1,10 +1,20 @@
 
    .body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
     font-style: normal;
+    color: #187B25;
     margin: 20px;
     padding: 30px;
     background-color: #ff72b6;
+  }
+
+  .body-2 {
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
+    font-style: normal;
+    color: #ff72b6;
+    margin: 20px;
+    padding: 30px;
+    background-color: #187B25;
   }
 
   .header {
@@ -17,7 +27,7 @@
   .header-title {
     font-size: 25px;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif sans-serif;
     font-style: normal;
   }
 
@@ -27,6 +37,7 @@
     align-items: center;
     padding: 20px;
   }
+
 
   .main-title {
     font-size: 20px;
