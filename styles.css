@@ -1,20 +1,21 @@
 
    .body {
+   background-color: #ff72b6;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
-    font-style: normal;
+    font-style: normal; 
     color: #187B25;
     margin: 20px;
     padding: 30px;
-    background-color: #ff72b6;
+    
   }
 
   .body-2 {
+   background-color: #187B25;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif, sans-serif;
-    font-style: normal;
+    font-style: normal; 
     color: #ff72b6;
     margin: 20px;
     padding: 30px;
-    background-color: #187B25;
   }
 
   .header {
