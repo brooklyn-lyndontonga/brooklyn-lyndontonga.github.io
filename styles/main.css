@@ -1,44 +1,42 @@
 <style>
-   /* Global Styles */
-   body {
+  
+   .body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f94500
+    margin: 1.5px;
+    padding: 1.5px;
+    background-color: #ffd80f
   }
 
-  /* Header Styles */
-  header {
-    background-color: #ffd80f;
+  .header {
+    background-color: #ff72b6
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
   }
 
-  header Title {
+  .header-title {
     font-size: 24px;
     font-weight: bold;
   }
 
-  /* Main Content Styles */
-  main {
+  .main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
   }
 
-  main title {
-    font-size: 18px;
+  .main-title {
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 30x;
     color: #187b25 ;
   }
 
-  main p {
-    font-size: 16px;
+  .p {
+    font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #ff72b6;
   }
   
