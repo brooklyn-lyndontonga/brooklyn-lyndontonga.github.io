@@ -1,5 +1,5 @@
                                                
-.p {
+.p.green.back-pink.font{
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 25px;
   font-style: normal;
@@ -11,19 +11,19 @@
   text-align: center;
   }
 
-  .p.2 {
+  .p.red.back-yellow.font {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-style: normal;
-    color: #F94500;
-    background-color: #ffd;
+    color:#ffd80f;
+    background-color: #f94500;
     padding: 25% 25% 25% 25%;
     margin: 10%;
     border-radius: 10%;
     text-align: center;
-
   }
-  .title {
+  
+  .header.pink.back-green.font {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 40px;
   font-style: bold;
@@ -33,9 +33,30 @@
   margin: 10%;
   border-radius: 10%;
   text-align: center;
-
   }
 
+  .nav-container {
+    nav-ul {
+      list-style: column;
+      margin: 10%;
+      padding: 25% 25% 25% 25%;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav-li {
+      margin-right: 20px;
+    }
+    
+    nav-a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    nav-a-hover {
+      color:#fc8d17;
+    }
+  }
 /* this is draft/notes
  .header-title {
     font-size: 25px;
