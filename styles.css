@@ -23,6 +23,18 @@
   text-align: center;
 }
 
+.yellow-back-red-font{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #f94500;
+  background-color: #ffd80f;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 10px;
+  text-align: center;
+
+}
 .header-pink-back-green-font {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 40px;
@@ -34,9 +46,20 @@
   border-radius: 10px;
   text-align: center;
 }
+.pink-back-green-font {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #187B25;
+  background-color: #ff72b6;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
 
 .nav-container > ul {
-  list-style: none;
+  list-style: column;
   margin: 1em;
   padding: 2em;
   display: flex;
