@@ -11,6 +11,18 @@
   text-align: center;
   }
 
+  .p.2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    color: #F94500;
+    background-color: #ffd;
+    padding: 25% 25% 25% 25%;
+    margin: 10%;
+    border-radius: 10%;
+    text-align: center;
+
+  }
   .title {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 40px;
