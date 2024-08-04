@@ -19,15 +19,20 @@
   color: #ffd80f;
 }
 
-.p2 {
+.p {
   background-color: #187B25;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-style: normal;
   color: #FF72B6;
 }
 
+
+
 .space {
-  
+  padding: 20px;
+  border-width: 30px;
+  border-radius: 25%;
+  border-color:black;  
 }
 
 .nav-container {
