@@ -3,7 +3,11 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-style: bold;
   color: #187B25;
+  text-align: center;
   
+}
+.center-text {
+  text-align: center;
 }
 
 .h2 {
@@ -28,26 +32,26 @@
 }
 
 .space {
-  padding: 20px;
+  padding: 75px;
   border-width: 30px;
-  border-radius: 25%;
-  border-color:black;  
+  border-radius: 15px;
+  border-color:black;
+  margin: 10%  
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  border-radius: 25%;
+  border-radius: 15xp;
+  border-width: 30px;
+  margin: 155px;
+  padding: 60px;
 }
 
-.nav-list {
-  list-style: none;
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-}
-
-.nav-item {
-  margin-right: 20px;
+.green-background {
+  background-color: #187B25;
+  color: #FF72B6;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-style: bold;
 }
