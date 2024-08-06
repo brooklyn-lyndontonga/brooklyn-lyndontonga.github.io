@@ -1,33 +1,13 @@
-.h1 {
-  background-color:#FF72B6 ;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  color: #187B25;
-  text-align: center;
-  
-}
 .center-text {
   text-align: center;
 }
 
-.h2 {
-  background-color: #ffd80f;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #F94500;
+.bold {
+  font-style: bold;
 }
 
-.h3 {
-  background-color: #F94500;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #ffd80f;
-}
-
-.p {
-  background-color: #187B25;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #FF72B6;
+.italics-font {
+  font-style: italic;
 }
 
 .space {
@@ -36,6 +16,34 @@
   border-radius: 15px;
   border-color:black;
   margin: 10%  
+}
+
+.pink-background {
+  background-color:#FF72B6 ;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  color: #187B25;
+  text-align: center;
+}
+
+.yellow-background {
+  background-color: #ffd80f;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-style: normal;
+  color: #F94500;
+}
+
+.red-background {
+  background-color: #F94500;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-style: normal;
+  color: #ffd80f;
+}
+
+.green-background {
+  background-color: #187B25;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-style: normal;
+  color: #FF72B6;
 }
 
 .nav-container {
@@ -48,9 +56,3 @@
   padding: 60px;
 }
 
-.green-background {
-  background-color: #187B25;
-  color: #FF72B6;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: bold;
-}
