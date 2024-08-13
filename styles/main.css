@@ -23,6 +23,11 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   color: #187B25;
   text-align: center;
+  padding: 75px;
+  border-width: 30px;
+  border-radius: 15px;
+  border-color:black;
+  margin: 10%  
 }
 
 .yellow-background {
@@ -30,6 +35,11 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-style: normal;
   color: #F94500;
+  padding: 75px;
+  border-width: 30px;
+  border-radius: 15px;
+  border-color:black;
+  margin: 10%  
 }
 
 .red-background {
@@ -37,6 +47,11 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-style: normal;
   color: #ffd80f;
+  padding: 75px;
+  border-width: 30px;
+  border-radius: 15px;
+  border-color:black;
+  margin: 10%  
 }
 
 .green-background {
@@ -44,10 +59,45 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-style: normal;
   color: #FF72B6;
+  padding: 75px;
+  border-width: 30px;
+  border-radius: 15px;
+  border-color:black;
+  margin: 10%  
 }
 
 .nav-container {
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  align-content: space-between;
+  padding: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin: 0 20px; 
+}
+
+.navbar a {
+  color: #fff; 
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #000;
 }
