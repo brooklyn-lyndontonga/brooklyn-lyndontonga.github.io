@@ -93,11 +93,11 @@
 }
 
 .navbar a {
-  color: #fff; 
+  color: #000000; 
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #000;
+  color: #ffffff;
 }
