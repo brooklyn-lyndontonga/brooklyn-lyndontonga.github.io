@@ -1,103 +1,96 @@
-.center-text {
-  text-align: center;
+/* General Styles */
+body {
+    font-family: 'Quicksand'; /* Use Quicksand font */
+    font-weight: 400; /* Regular weight */
+    margin: 20px;
+    border: 100px;
+    border-image: fill url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
+    background-image: url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.bold {
-  font-style: bold;
+/* Heading Styles */
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 700; /* Bold weight */
+    text-align: center;
+   }
+
+/* Paragraphs */
+p {
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 400; /* Regular weight */
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 15px;
+    border-radius: 15px;
 }
 
-.italics-font {
-  font-style: italic;
+/* Links */
+a {
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 500; /* Medium weight */
+    text-decoration: none;
 }
 
-.space {
-  padding: 75px;
-  border-width: 30px;
-  border-radius: 15px;
-  border-color:black;
-  margin: 10%  
+a:hover {
+    font-weight: 600; /* Slightly bolder on hover */
+    color: #ffffff; /* white on hover */
+    border: 2px solid #267f53; /* Green underline */
 }
 
-.pink-background {
-  background-color:#FF72B6 ;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  color: #187B25;
-  text-align: center;
-  padding: 75px;
-  border-width: 30px;
-  border-radius: 15px;
-  border-color:black;
-  margin: 10%  
+/* Containers */
+div {
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 400; /* Regular weight */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.yellow-background {
-  background-color: #ffd80f;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #F94500;
-  padding: 75px;
-  border-width: 30px;
-  border-radius: 15px;
-  border-color:black;
-  margin: 10%  
+/* Specific Background Colors */
+.green-background {
+    background-color: #006c36; /* Deep green */
+    color: #ff72b6; /* Soft pink */
 }
 
 .red-background {
-  background-color: #F94500;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #ffd80f;
-  padding: 75px;
-  border-width: 30px;
-  border-radius: 15px;
-  border-color:black;
-  margin: 10%  
+    background-color: #ff5500; /* Vivid orange */
+    color: #ffb300; /* Bright yellow */
 }
 
-.green-background {
-  background-color: #187B25;
-  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-  font-style: normal;
-  color: #FF72B6;
-  padding: 75px;
-  border-width: 30px;
-  border-radius: 15px;
-  border-color:black;
-  margin: 10%  
+.pink-background {
+    background-color: #ff72b6; /* Soft pink */
+    color: #006c36; /* Deep green */
 }
 
-.nav-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+.yellow-background {
+    background-color: #fcca59; /* Bright yellow */
+     color: #ff5500; /* Vivid orange color */
 }
 
+/* Navbar */
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  padding: 30px;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar li {
-  margin: 0 20px; 
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 600; /* Semi-bold weight */
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #676565; /* Black navbar */
+    color: #ffffff; /* White text */
+    border-radius: 15px;
 }
 
 .navbar a {
-  color: #000000; 
-  text-decoration: none;
-  transition: color 0.2s ease;
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    font-weight: 700; /* Bold weight */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
 }
 
 .navbar a:hover {
-  color: #ffffff;
+    color: #ff007b; /* Hot pink text */
 }
