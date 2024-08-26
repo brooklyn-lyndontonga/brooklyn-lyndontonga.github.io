@@ -5,6 +5,9 @@ body {
     margin: 20px;
     border: 100px;
     border-image: fill url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
+   
+}
+.background-img {
     background-image: url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
