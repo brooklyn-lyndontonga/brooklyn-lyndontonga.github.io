@@ -1,101 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link rel="stylesheet" href="../styles/main.css">
-
-   <title>Technical Blog</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Technical Blog</title>
   </head>
 
   <body>
-    <div  class="pink-background">
-      <h1>
-        What are the best practices associated with using classes vs. ids?
+    <div class="container">
+      <h1 class="h1">
+        What are the best practices associated with using classes vs. IDs?
       </h1>
-        <h2>
-          This is something i am still leraning to apply and these are the things i have found as i reserach this topic:
-        </h2>
-          <h3>
-            Date: 05 August 2024
-          </h3>
-    </div>
+      <h2 class="h2">
+        This is something I am still learning to apply, and these are the things I have found as I research this topic:
+      </h2>
+      <h3 class="h3">
+        Date: 05 August 2024
+      </h3>
 
-    <div class="green-background">
-      <h2>
+      <h2 class="h2">
         Here are some of my notes on what Classes & IDs are:
       </h2>
-    </div>
 
-    <div class="yellow-background">  
-      <h2>
+      <h2 class="h2">
         Classes:
       </h2>
-        <ul>
-          <li>
-            Used for groups of elements:
-            When you want to add the same style or property to multiple elements.
-          </li>
-          <li>
-            Multiple classes can be used:
-          An element can have more than one class, so you can change more than one thing at a time.
-          </li>
-          <li>
-            Reusable: 
-            You can use the same class on many elements, so it can be used in different parts of your page.
-          </li>
-        </ul>
-    </div>
+      <ul class="p">
+        <li>Used for groups of elements: When you want to add the same style or property to multiple elements.</li>
+        <li>Multiple classes can be used: An element can have more than one class, so you can change more than one thing at a time.</li>
+        <li>Reusable: You can use the same class on many elements, so it can be used in different parts of your page.</li>
+      </ul>
 
-    <div class="red-background">
-      <h2>
+      <h2 class="h2">
         IDs:
       </h2>
-        <ul>
-          <li>
-          Use for unique elements: 
-          When you want to add a specific thing to a page, example: font thats different to the rest of the page. 
-          </li>
-          <li>One ID per page: 
-          The ID will only affect the page that its on.
-          </li>
-          <li>Single use: 
-            Only one element can have a particular ID.
-          </li>
-        </ul>
-    </div>
-      
-    <div class="green-background">
-      <h2>These are my notes on what best practice looks like:</h2>
-        <ul>
-          <li>1. Use classes for styling and grouping: 
-        Apply styles or behaviors to groups of elements that share something in common, like h1, h2, h3, p, border, padding, etc.
-          </li>
-          <li>2. Use IDs for unique elements: 
-          Identify and apply styles or behaviors to a single, specific element, like titles and headings.
-          </li>
-          <li>3. Keep IDs unique: 
-        Only use an ID once on a page.
-          </li>
-          <li>4. Combine classes when needed:
-          An element can have multiple classes if it fits into multiple groups.
-          </li>
-        </ul>
-      </div>
+      <ul class="p">
+        <li>Use for unique elements: When you want to add a specific style or property to a single element, like a unique font or color.</li>
+        <li>One ID per page: An ID will only affect the single element it is assigned to on the page.</li>
+        <li>Single use: Only one element can have a particular ID on a page.</li>
+      </ul>
 
-  <div class="pink-background">      
-    <h2>To summarise my learnings:</h2>
-      <ul>
+      <h2 class="h2">
+        These are my notes on what best practice looks like:
+      </h2>
+      <ul class="p">
+        <li>1. Use classes for styling and grouping: Apply styles or behaviors to groups of elements that share something in common, like headers, paragraphs, borders, padding, etc.</li>
+        <li>2. Use IDs for unique elements: Identify and apply styles or behaviors to a single, specific element, like titles and headings.</li>
+        <li>3. Keep IDs unique: Only use an ID once on a page.</li>
+        <li>4. Combine classes when needed: An element can have multiple classes if it fits into multiple groups.</li>
+      </ul>
+
+      <h2 class="h2">
+        To summarize my learnings:
+      </h2>
+      <ul class="p">
         <li>Classes: Group elements together.</li>
         <li>IDs: Identify single, unique elements.</li>
         <li>Use classes for multiple elements.</li>
         <li>Use IDs for individual elements.</li>
         <li>Ensure each ID is unique on a page.</li>
       </ul>
-    </div>
 
-    <div class="yellow-background nav-container navbar">
-      <a href="../index.html">Home</a>
-      <a href="../blog/blog-list.html">Blog</a>
-      <a href="../blog/about-me.html">About Brooky</a>
+      <nav class="nav">
+        <div class="navbar">
+          <a href="../index.html">Home</a>
+          <a href="../blog/blog-list.html">Blog</a>
+          <a href="../blog/about-me.html">About Brooky</a>
+        </div>
+      </nav>
     </div>
   </body>
 </html>

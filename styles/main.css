@@ -1,99 +1,62 @@
-/* General Styles */
+
 body {
-    font-family: 'Quicksand'; /* Use Quicksand font */
-    font-weight: 400; /* Regular weight */
-    margin: 20px;
-    border: 100px;
-    border-image: fill url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
-   
-}
-.background-img {
-    background-image: url('/Users/brooklynlyndon-tonga/brooklyn-lyndontonga.github.io/images/b:w.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+  font-family: 'montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/_\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center; 
+  }
 
-/* Heading Styles */
-h1, h2, h3 {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 700; /* Bold weight */
-    text-align: center;
-   }
-
-/* Paragraphs */
-p {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 400; /* Regular weight */
-    font-size: 18px;
-    line-height: 1.6;
-    padding: 15px;
-    border-radius: 15px;
-}
-
-/* Links */
-a {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 500; /* Medium weight */
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: 600; /* Slightly bolder on hover */
-    color: #ffffff; /* white on hover */
-    border: 2px solid #267f53; /* Green underline */
-}
-
-/* Containers */
-div {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 400; /* Regular weight */
-    margin: 20px auto;
+.container {
+    max-width: 580px;
+    margin: 40px auto;
     padding: 20px;
-    border-radius: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline-color: #000000;
+    outline-offset: 2px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+.h1 {
+    color: #fb73bc;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.h2 {
+   color: #f3bb72;
+   text-align: center;
+}
+.h3 {
+    color: #a4bb6c;
+    text-align: center;
+}
+.p {
+    color: #000000;
 }
 
-/* Specific Background Colors */
-.green-background {
-    background-color: #006c36; /* Deep green */
-    color: #ff72b6; /* Soft pink */
-}
-
-.red-background {
-    background-color: #ff5500; /* Vivid orange */
-    color: #ffb300; /* Bright yellow */
-}
-
-.pink-background {
-    background-color: #ff72b6; /* Soft pink */
-    color: #006c36; /* Deep green */
-}
-
-.yellow-background {
-    background-color: #fcca59; /* Bright yellow */
-     color: #ff5500; /* Vivid orange color */
-}
-
-/* Navbar */
+.nav{
 .navbar {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 600; /* Semi-bold weight */
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    background-color: #676565; /* Black navbar */
-    color: #ffffff; /* White text */
-    border-radius: 15px;
+  background-color: #99b7f5;
+  border: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
 }
-
 .navbar a {
-    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    font-weight: 700; /* Bold weight */
-    color: #ffffff;
-    padding: 10px 20px;
-    text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
-
 .navbar a:hover {
-    color: #ff007b; /* Hot pink text */
-}
+  text-decoration: underline;
+}}
