@@ -1,1 +1,66 @@
+body {
+  font-family: 'montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/_\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: space-between; 
+  }
 
+.container {
+    max-width: 580px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline-color: #000000;
+    outline-offset: 2px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+.h1 {
+    color: #fb73bc;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.h2 {
+   color: #f3bb72;
+   text-align: center;
+}
+.h3 {
+    color: #a4bb6c;
+    text-align: center;
+}
+.p {
+    color: #000000;
+}
+
+.bulletpoints {
+  justify-content: flex-start;
+}
+
+.nav{
+.navbar {
+  background-color: #99b7f5;
+  border: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}}
